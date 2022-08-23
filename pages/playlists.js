@@ -40,7 +40,6 @@ function PlayLists() {
 
     return (
       <div>
-            {/* with bootstrap style */}
             <div className="container">
                 <div className="row d-flex justify-content-center align-items-center">
                     <div className="col-md-6 text-center card card-body">

@@ -13,7 +13,10 @@ export default function Home() {
         Bienvenue {session?.user?.name} <br />
         {/* link to list of playlists */}
         <Link href="/playlists">
-          <a>Voir mes playlists</a>
+          <a className='btn btn-primary mx-2'>Voir mes playlists</a>
+        </Link>
+        <Link href="/songs">
+          <a href="" className='btn btn-primary mx-2'>Mes sons favoris</a>
         </Link>
         <button className="btn btn-outline-danger" onClick={() => signOut()}>
           Sign out
